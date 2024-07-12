@@ -3,7 +3,7 @@ import StarIcon from '@mui/icons-material/Star';
 
 function Testimonials() {
   return (
-    <div className='bg-[#1D332D] p-20 text-white flex justify-around'>
+    <div className='bg-[#1D332D] p-14 text-white flex justify-between gap-14'>
       <div className='w-[480px] flex flex-col gap-10'>
         <div className='flex flex-col gap-4'>
           <h1 className='text-[23px] font-poppins'>John S Broker Partner</h1>

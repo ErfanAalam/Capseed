@@ -6,14 +6,14 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 function Upperfooter() {
   return (
-    <div className='bg-[rgb(29,51,45)]  '>
+    <div className='bg-[rgb(29,51,45)]  flex flex-col items-center'>
       <div className='bg-[rgb(29,51,45)] flex justify-center gap-40 py-14 items-center'>
         <h1 className='text-white text-[35px]'>BANKS SAID NO? CAPSEED SAYS YES!</h1>
         <button className='p-4 w-[180px] items-center text-gray-800 rounded-lg bg-[#B3BAAA]'>GET IN TOUCH</button>
       </div>
       <span className='w-[90%] mx-20 h-[1px] border-[1px] flex border-white' ></span>
 
-      <div className='text-[#B3BAAA] p-20 flex gap-80'>
+      <div className='text-[#B3BAAA] p-10 flex gap-60 '>
         <div className='flex flex-col gap-10 mt-10'>
           <div><img src="/Assets/Logo-19.png" alt="" className='w-[260px]' /></div>
           <ul className='flex flex-col gap-6 text-[20px] w-[220px]'>
