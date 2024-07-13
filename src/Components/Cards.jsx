@@ -2,14 +2,14 @@ import React from 'react'
 
 function Cards() {
   return (
-    <div className='bg-[#f2f2f2] p-10 '>
+    <div className='bg-[#f2f2f2] p-20 font-poppins mb-10'>
 
       <div className="flex justify-center">
-        <div className=' p-6 w-[400px] bg-white m-10 text-center flex flex-col gap-6 shadow-lg shadow-black'>
+        <div className=' p-6 w-[400px] bg-white m-10 text-center flex flex-col gap-6 shadow-lg shadow-gray-400'>
           <div className=''>
             <img src="https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="" className='w-[400px] h-[400px]' />
           </div>
-          <div>
+          <div className='flex flex-col gap-6'>
             <h1 className='text-[30px] text-center font-playfair'>Fisrt Mortgage Loans</h1>
             <p className='px-20'>Avial low interest Funding against your Property</p>
           </div>
@@ -18,12 +18,12 @@ function Cards() {
           </div>
         </div>
 
-        <div className=' p-6 w-[400px] bg-white m-10 text-center flex flex-col gap-6 shadow-lg shadow-black'>
+        <div className=' p-6 w-[400px] bg-white m-10 text-center flex flex-col gap-6 shadow-lg shadow-gray-400'>
           <div className=''>
             <img src="https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="" className='w-[400px] h-[400px]' />
           </div>
-          <div>
-            <h1 className='text-[30px] text-center font-playfair'>Second Mortgage Loans</h1>
+          <div className='flex flex-col gap-6'>
+            <h1 className='text-[30px] text-center  font-playfair'>Second Mortgage Loans</h1>
             <p className='px-20'>Avial low interest Funding against your Property</p>
           </div>
           <div>
@@ -31,11 +31,11 @@ function Cards() {
           </div>
         </div>
 
-        <div className=' p-6 w-[400px] bg-white m-10 text-center flex flex-col gap-6 shadow-lg shadow-black'>
+        <div className=' p-6 w-[400px] bg-white m-10 text-center flex flex-col gap-6 shadow-lg shadow-gray-400'>
           <div className=''>
             <img src="https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="" className='w-[400px] h-[400px]' />
           </div>
-          <div>
+          <div className='flex flex-col gap-6'>
             <h1 className='text-[30px] text-center font-playfair'>Bridge Loans</h1>
             <p className='px-20'>Avial low interest Funding against your Property</p>
           </div>
@@ -47,7 +47,7 @@ function Cards() {
       </div>
 
       <div className="flex justify-center gap-6">
-        <div className=' p-6 w-[680px] h-[400px] bg-white flex gap-10 shadow-lg shadow-black'>
+        <div className=' p-6 w-[620px] h-[400px] bg-white flex gap-10 shadow-lg shadow-gray-400'>
           <div className=''>
             <img src="https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="" className='w-[350px] h-[350px]' />
           </div>
@@ -58,7 +58,7 @@ function Cards() {
           </div>
         </div>
 
-        <div className=' p-6 w-[650px] h-[400px] bg-white  flex gap-6 shadow-lg shadow-black'>
+        <div className=' p-6 w-[620px] h-[400px] bg-white  flex gap-6 shadow-lg shadow-gray-400'>
           <div className=''>
             <img src="https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="" className='w-[500px] h-[350px]' />
           </div>

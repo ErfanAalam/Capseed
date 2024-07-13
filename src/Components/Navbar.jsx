@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function Navbar() {
     return (
         <>
-            <nav className='absolute w-[100%]'>
+            <nav className='absolute w-[100%] font-poppins'>
                 <ul className='flex justify-between pt-10 px-32 items-center'>
                     <a href=""><li>Home</li></a>
                     <a href=""><select name="services" id="" className='bg-transparent flex items-center'>
